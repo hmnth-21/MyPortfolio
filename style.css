@@ -1,0 +1,156 @@
+.top-container{
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
+    z-index: -2;
+}
+.top-cloud{
+    position: absolute;
+    top: 40px;
+    right: 300px;
+}
+h1, h2{
+    text-align: center;
+    color: #66bfbf;
+}
+h1{
+    font-weight: bolder;
+    font-size:70px;
+   font-family: 'Caveat', cursive;
+font-family: 'Finger Paint', sans-serif;
+font-family: 'Libre Baskerville', serif;
+font-family: 'Sacramento', cursive;
+}
+.underline{
+    text-decoration:underline;
+}
+h2{
+font-size: 37px;
+font-family: 'Montserrat', sans-serif;
+}
+.mountain{
+    position: relative;
+    left: 450px;
+    z-index: -1;
+}
+.bottom-cloud{
+    position: absolute;
+    left: 250px;
+}
+.middle-container{
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.Hello{
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;
+color: #66bfbf;
+margin: 30px;
+}
+.Iam{
+    width: 490px;
+    text-align:center;
+    font-size:1.18rem;
+    font-family: 'Source Serif 4', serif;
+}
+hr{
+    width: 5%;
+    margin-top: 100px;
+    margin-bottom: 75px;
+    border-top: 6px dotted #DCF2F1;
+    border-bottom: 0;
+    border-left: 0; 
+}
+
+.container{
+    display: grid;
+    grid-template-columns: 200px 400px;
+}
+
+.bottom-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.four,.two{  
+    padding: 10px 30px ;
+}
+.one > img, .three> img{
+    padding-top: 40px;
+    width: 200px;
+}
+.two > h2, .four > h2{
+    font-size: 1.5em;
+ 
+}
+.two > p, .four > p{
+    font-family: 'Source Serif 4', serif;
+    line-height: 2em;
+    
+}
+.btn-primary{
+    
+    padding: 9px 14px;
+    border-radius: 7px;
+    color: white;
+    background-color:#66bfbf;
+    font-size: 21px;    
+    margin: 40px 3px;
+    border: 0;
+}
+.bootom-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.bootom-container  > h1{
+    font-size: 50px;
+font-family: 'Montserrat', sans-serif;
+font-weight: bolder;
+}
+.bootom-container > p{
+ width: 38em;
+  font-family: 'Source Serif 4', serif;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.bootom-container > h2{
+    font-size: 1.5em;
+    font-family: 'Montserrat', sans-serif;
+}
+#mine{
+font-family: 'Montserrat', sans-serif;
+font-size: 50px;
+font-weight: bolder;
+margin: 0%;
+
+}
+.mid-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 25px 0 100px 0;
+}
+.footer{
+    background-color:#66bfbf;
+    padding: 50px 0;
+    text-align: center;
+    margin-top: 40px;
+}
+
+.footer > a{
+    text-decoration: none;
+    margin: 0 3rem 0 3rem;
+   color: #11999e
+}
+
+footer{
+    line-height: 5em;
+    color: #DCF2F1;
+    font-size: large;
+}
